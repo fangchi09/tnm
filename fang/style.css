@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    background-color: aquamarine;
+}
+.container .main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 250px;
+}
+.main .row {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+.picture {
+    border-radius: 50%;
+}
+.natoy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+    text-align: center;
+}
+.wow {
+   
+}
